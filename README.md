@@ -3,7 +3,7 @@ A python script to format and create datasets for enhancing AI translation perfo
 
 # How to Use
 
-Place the CSV file and the script in the same folder. The CSV file should contain three columns: the Japanese word, its reading, and the English translation. For example:
+Place the CSV file and the script in the same folder, the CSV file must be named `vocabulary.csv` and should contain three columns: the japanese word, its reading, and the english translation, for example:
 
 | Japanese | Reading  | English      |
 |----------|----------|--------------|
@@ -14,7 +14,7 @@ Place the CSV file and the script in the same folder. The CSV file should contai
 To run the script, open a terminal or command prompt, navigate to the folder where the script and CSV file are located, and execute the following command:
 
 ```bash
-python3 Rag_Creator.py
+python3 converter.py
 ```
 
 The script will generate a JSON file in the same folder. This JSON file will have a structure like this:
@@ -43,4 +43,4 @@ The script will generate a JSON file in the same folder. This JSON file will hav
 }
 ```
 
-Make sure the file paths in the script match the names of your CSV and desired JSON files, once complete, the JSON file will be ready for use in your applications.
+Once complete, the JSON file will be ready for use in your applications.
