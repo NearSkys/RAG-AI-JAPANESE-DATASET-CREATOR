@@ -14,7 +14,7 @@ Place the CSV file and the script in the same folder, the CSV file must be named
 To run the script, open a terminal or command prompt, navigate to the folder where the script and CSV file are located, and execute the following command:
 
 ```bash
-python3 converter.py
+python3 rag_converter.py
 ```
 
 The script will generate a JSON file in the same folder. This JSON file will have a structure like this:
